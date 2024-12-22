@@ -1,2 +1,7 @@
-# s11-emlov4-fastAPI-deploy
-This is the repository which contains the assignment work of EMLOv4 Session 11
+```bash
+source .venv/bin/activate
+python -m pip install -r aws-reqs.txt
+cdk bootstrap
+cdk deploy  --verbose --progress bar
+cdk destroy
+```
